@@ -1,7 +1,11 @@
-import { DateTime } from 'luxon'
+import { DateTime } from "luxon";
+import { SubComponent } from "./SubComponent";
 
 export function App() {
-  return <>
-  {DateTime.now()}
-  </>
+  return (
+    <>
+      <SubComponent />
+      {DateTime.now()}
+    </>
+  );
 }
